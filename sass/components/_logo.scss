@@ -1,0 +1,7 @@
+.logo {
+  @include logo;
+  margin-right: 93px;
+}
+.logo__left {
+  color: $brand;
+}

@@ -1,0 +1,27 @@
+.hero {
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../../images/herobackground/effectivesolutions.jpg);
+  background-size: cover;
+  height: 600px;
+  @include flex-center;
+}
+.hero__box {
+  text-align: center;
+}
+
+.hero__header {
+  font-size: 44px;
+  font-weight: $font-bulky;
+  letter-spacing: 2.5px;
+  line-height: 1.36;
+  color: $main-background;
+  margin-left: 252px;
+  margin-right: 252px;
+  text-transform: uppercase;
+}
+.hero__btn {
+  @include button;
+  line-height: 1.88;
+  font-weight: $font-bold;
+  font-size: $font-m;
+}
